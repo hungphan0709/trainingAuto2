@@ -4,7 +4,11 @@ test('has title', async ({ page }) => {
   await page.goto("https://google.com/")
 
   // Expect a title "to contain" a substring.
+<<<<<<< HEAD
   await expect(page).toHaveTitle(/hungpq_ver1.1.1/);
+=======
+  await expect(page).toHaveTitle(/Playwright1_thay_doi_main/);
+>>>>>>> main
 });
 
 test('get started link', async ({ page }) => {
