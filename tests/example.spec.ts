@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto("https://google.com/")
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright123/);
+  await expect(page).toHaveTitle(/Playwright.com.vn/);
 });
 
 test('get started link', async ({ page }) => {
@@ -16,3 +16,5 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+ // khai bien ten hung
+ let fullname: string = 'phanquochung'
